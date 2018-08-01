@@ -5,7 +5,9 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<title>Document</title>
+	<title>FoodMap</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+	<link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
 	<link rel="stylesheet" type="text/css" media="screen" href="./css/bulma.css" />
 	<link rel="stylesheet" type="text/css" media="screen" href="./css/bulma.css.map" />
 	<link rel="stylesheet" type="text/css" media="screen" href="./css/bulma.min.css" />
@@ -16,14 +18,20 @@
 	<header>
 		<section class="hero is-warning">
 			<div class="hero-body">
-				<img src="img/camarero.png" alt="logo" id="img-log">
-				<div class="container">
-					<h1 class="title">
-						FoodMap
-					</h1>
-					<h2 class="subtitle">
-						Encuentra un restaurante en Miraflores
-					</h2>
+				<div class="container level is-mobile">
+					<div class="level-left">
+						<div class="level-item">
+							<img src="img/camarero.png" alt="logo" id="img-log">
+						</div>
+					</div>
+					<div class="level-rigth">
+						<h1 class="title">
+							FoodMap
+						</h1>
+						<h2 class="subtitle">
+							Encuentra un restaurante en Miraflores
+						</h2>
+					</div>
 				</div>
 			</div>
 		</section>
@@ -36,7 +44,19 @@
 			</iframe>
 		</div>
 
-		<nav class="level is-mobile">
+		<section id="section-filter">
+			<form role="form">
+				<p class="control has-icon">
+					<input type="text" value="" name="q" placeholder="Busca restaurantes en Miraflores" class="input is-medium is-warning">
+					<span class="icon" id="icon-search">
+						<i class="fa fa-search"></i>
+					</span>
+				</p>
+				<input type="submit" style="display: none;">
+			</form>
+		</section>
+
+		<!-- <nav class="level is-mobile">
 			<div class="level-item has-text-centered">
 				<div>
 					<p class="heading">Tweets</p>
@@ -61,7 +81,7 @@
 					<p class="title">789</p>
 				</div>
 			</div>
-		</nav>
+		</nav> -->
 
 	</main>
 </body>
