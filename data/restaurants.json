@@ -1,0 +1,31 @@
+[{
+	"name": "Pizza Hut",
+	"address": "Av. Antunez de Mayolo 826, Los Olivos 15301",
+	"district": "Los Olivos",
+	"type": "pizzas",
+	"link": "https://www.google.com.pe/maps/place/Pizza+Hut/@-11.9917219,-77.0724775,17z/data=!4m13!1m7!3m6!1s0x9105ce21b6748c45:0xece5fa25a5e8c4d5!2sLos+Olivos!3b1!8m2!3d-11.9594023!4d-77.0760457!3m4!1s0x9105ce5bd9b47b99:0x42e1fd3a79923d4e!8m2!3d-11.9921373!4d-77.0716667"
+}, {
+	"name": "El Auténtico Rodizio",
+	"address": "Av. Carlos Izaguirre 811, Los Olivos 15301",
+	"district": "Los Olivos",
+	"type": "filetes",
+	"link": "https://www.google.com.pe/maps/place/El+Aut%C3%A9ntico+Rodizio/@-11.9917219,-77.0724775,17z/data=!4m13!1m7!3m6!1s0x9105ce21b6748c45:0xece5fa25a5e8c4d5!2sLos+Olivos!3b1!8m2!3d-11.9594023!4d-77.0760457!3m4!1s0x9105ce5bc3dfcec1:0xc3fb89d09bca7630!8m2!3d-11.991541!4d-77.0721368"
+}, {
+	"name": "Rustica",
+	"address": "Av. Las Palmeras 3810, Los Olivos 15301",
+	"district": "Los Olivos",
+	"type": "Resturante Bar",
+	"link": "https://www.google.com.pe/maps/place/Rustica/@-11.9917219,-77.0724775,17z/data=!4m13!1m7!3m6!1s0x9105ce21b6748c45:0xece5fa25a5e8c4d5!2sLos+Olivos!3b1!8m2!3d-11.9594023!4d-77.0760457!3m4!1s0x9105ce5bc79419ab:0xa3f318b6d5272341!8m2!3d-11.9906556!4d-77.0714548"
+}, {
+	"name": "Kani Fusion",
+	"address": "Av. Las Palmeras 3867, Los Olivos 15301",
+	"district": "Los Olivos",
+	"type": "sushi",
+	"link": "https://www.google.com.pe/maps/place/Kani+Fusion/@-11.9910817,-77.0719303,17z/data=!4m13!1m7!3m6!1s0x9105ce21b6748c45:0xece5fa25a5e8c4d5!2sLos+Olivos!3b1!8m2!3d-11.9594023!4d-77.0760457!3m4!1s0x0:0x718bb937ecf544d1!8m2!3d-11.9899183!4d-77.0720087"
+}, {
+	"name": "Papa John's",
+	"address": "Av., Av. Carlos Izaguirre 512, Los Olivos 15301",
+	"district": "Los Olivos",
+	"type": "pizzas",
+	"link": "https://www.google.com.pe/maps/place/Papa+John's/@-11.9912496,-77.0682396,17z/data=!4m13!1m7!3m6!1s0x9105ce21b6748c45:0xece5fa25a5e8c4d5!2sLos+Olivos!3b1!8m2!3d-11.9594023!4d-77.0760457!3m4!1s0x9105ce5090f3d49f:0x715bde8c32e2de54!8m2!3d-11.9902226!4d-77.0671284"
+}]
