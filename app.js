@@ -15,6 +15,9 @@ const filterSelva = document.getElementById("filter-selva");
 const filterBar = document.getElementById("filter-bar");
 const listRestaurants = document.getElementById("list-restaurants");
 let allRestaurants;
+const modalRestaurant = document.getElementById("modal-restaurant-description");
+const btnModal = document.getElementById("btn-modal");
+const btnCloseModal = document.getElementById("close-modal");
 
 window.onload = () => {
 	setTimeout(() => {
@@ -121,6 +124,12 @@ filterBar.addEventListener("click", () => {
 });
 filterSandwich.addEventListener("click", () => {
 	getRestaurantByFilter("Sandwicherias y Cafés")
+});
+btnModal.addEventListener("click", () => {
+	modalRestaurant.style.display = "block";
+});
+btnCloseModal.addEventListener("click", () => {
+	modalRestaurant.style.display = "none";
 });
 
 // filter.addEventListener("click", () => console.log(""));
