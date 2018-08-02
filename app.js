@@ -52,6 +52,13 @@ const getRestaurantByFilter = (type) => {
 	showRestaurants(filterRestaurants);
 }
 
+const searchByFilter = (text) => {
+	let filterRestaurants = allRestaurants.filter(restaurant => {
+		return restaurant.name.toUpperCase().indexOf(text.toUpperCase()) > -1;
+	});
+	return filterRestaurants;
+}
+
 const showRestaurants = (restaurants) => {
 	listRestaurants.innerHTML = "";
 	restaurants.map(restaurant => {
@@ -78,6 +85,10 @@ const showRestaurants = (restaurants) => {
 	});
 }
 
+inputSearch.addEventListener("input", (e) => {
+	const search = searchByFilter(e.target.value);
+	showRestaurants(search);
+});
 filterParrilla.addEventListener("click", () => {
 	getRestaurantByFilter("Carnes y Parrillas")
 });
