@@ -5,4 +5,11 @@
 #section-filter {
 	margin-top: 10px;
 	margin-bottom: 30px;
+	margin-right: 7px;
+	margin-left: 7px;
+}
+
+.space {
+	margin-top: 30px;
+	margin-bottom: 20px;
 }
