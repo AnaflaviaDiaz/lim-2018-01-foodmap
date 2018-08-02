@@ -151,28 +151,28 @@
 		"address": "Av. la Paz 1079, Miraflores 15074",
 		"district": "Miraflores",
 		"img": "../img/olla.png",
-		"type": "Comida de la Selva",
+		"type": "Comida Selvática",
 		"link": "https://www.google.com.pe/maps/place/%C3%A1maZ/@-12.1287087,-77.028752,17z/data=!3m1!4b1!4m5!3m4!1s0x9105c81dc203f8a1:0xc292e53ab6af3a54!8m2!3d-12.1287087!4d-77.0265579"
 	}, {
 		"name": "TAIKEN RESTOBAR SUSHI",
 		"address": "Calle Berlin 645 Miraflores, Lima",
 		"district": "Miraflores",
 		"img": "../img/sushi.png",
-		"type": "Comida Japonesa / Sushi / Nikei",
+		"type": "Comida Japonesa",
 		"link": "https://www.google.com.pe/maps/place/TAIKEN+RESTOBAR+SUSHI/@-12.120195,-77.0385791,17z/data=!3m1!4b1!4m5!3m4!1s0x9105c82327845fc1:0x5f6bdc7ce9a8f6e9!8m2!3d-12.120195!4d-77.036385"
 	}, {
 		"name": "Magma Sushi Lounge",
 		"address": "Calle San Martin 512, Miraflores 15074",
 		"district": "Miraflorees",
 		"img": "../img/sushi.png",
-		"type": "Comida Japonesa / Sushi / Nikei",
+		"type": "Comida Japonesa",
 		"link": "https://www.google.com.pe/maps/place/Magma+Sushi+Lounge/@-12.126125,-77.0315131,17z/data=!3m1!4b1!4m5!3m4!1s0x9105c81eea65eca1:0x8c2fb94207bbb266!8m2!3d-12.126125!4d-77.029319"
 	}, {
 		"name": "Aka Tonbo Karaoke Sushi",
 		"address": "Calle Alcanfores 377, Lima 15074",
 		"district": "Miraflores",
 		"img": "../img/sushi.png",
-		"type": "Comida Japonesa / Sushi / Nikei",
+		"type": "Comida Japonesa",
 		"link": "https://www.google.com.pe/maps/place/Aka+Tonbo+Karaoke+Sushi/@-12.1229251,-77.0299745,17z/data=!3m1!4b1!4m5!3m4!1s0x9105c81961f3a931:0xd9c4799550468536!8m2!3d-12.1229251!4d-77.0277804"
 	}, {
 		"name": "La Rosa Náutica",
@@ -214,21 +214,21 @@
 		"address": "Calle Cantuarias 128, Miraflores 15074",
 		"district": "Miraflores",
 		"img": "../img/churros.png",
-		"type": "Panadería postres pastelería",
+		"type": "Pastelería",
 		"link": "https://www.google.com.pe/maps/place/Que+Waffles/@-12.1033524,-77.1005477,12z/data=!4m8!1m2!2m1!1screpes+%26+waffles+Miraflores!3m4!1s0x9105c8199b8b4ea3:0x74f396f36920082d!8m2!3d-12.12142!4d-77.028648"
 	}, {
 		"name": "Babolti",
 		"address": "Av. José Pardo 551, Lima 15074",
 		"district": "Miraflores",
 		"img": "../img/churros.png",
-		"type": "Panadería postres pastelería",
+		"type": "Pastelería",
 		"link": "https://www.google.com.pe/maps/place/Babolti/@-12.119335,-77.0365637,17z/data=!3m1!4b1!4m5!3m4!1s0x9105c83d4b59fdbf:0x756f9ff7f74c791b!8m2!3d-12.119335!4d-77.034375"
 	}, {
 		"name": "Las Delicias",
 		"address": "Ignacio Merino 505 Miraflores, Lima 15074",
 		"district": "Miraflores",
 		"img": "../img/churros.png",
-		"type": "Panadería postres pastelería",
+		"type": "Pastelería",
 		"link": "https://www.google.com.pe/maps/place/Las+Delicias/@-12.113086,-77.0477811,17z/data=!3m1!4b1!4m5!3m4!1s0x9105c8374337172b:0x5dd8a91c67b5911a!8m2!3d-12.113086!4d-77.045587"
 	}, {
 		"name": "Costanera 700",
