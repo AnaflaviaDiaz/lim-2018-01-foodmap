@@ -55,7 +55,7 @@ const getRestaurantByFilter = (type) => {
 
 const searchByFilter = (text) => {
 	let filterRestaurants = allRestaurants.filter(restaurant => {
-		return restaurant.name.toUpperCase().indexOf(text.toUpperCase()) > -1;
+		return restaurant.filter.toUpperCase().indexOf(text.toUpperCase()) > -1;
 	});
 	return filterRestaurants;
 }
@@ -111,11 +111,12 @@ const createModal = (idRestaurant) => {
 					<button class="delete" id="close-modal" aria-label="close" onclick="closeModal()"></button>
 				</header>
 				<section class="modal-card-body">
+					<img src="${restaurant.img}">
 					<p><strong>Tipo: </strong>${restaurant.type}</p>
 					<p><strong>Ubicación: </strong>${restaurant.address}</p>
 				</section>
 				<footer class="modal-card-foot">
-					<a class="button is-warning subtitle is-5" href="${restaurant.link}" target="_blank">Visitar</a>
+					<a class="button is-warning subtitle is-5" href="${restaurant.link}" target="_blank">Ubicación</a>
 				</footer>
 			</div>
 		</div>
