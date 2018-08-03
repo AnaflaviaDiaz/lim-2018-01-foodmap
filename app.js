@@ -21,7 +21,7 @@ window.onload = () => {
 	setTimeout(() => {
 		postSplash();
 		getAllRestaurant();
-	}, 1000);
+	}, 2000);
 }
 
 postSplash = () => {
